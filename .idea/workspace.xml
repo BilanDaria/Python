@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3ea925-8eca-4ded-9272-aeba7c54d21a" name="Changes" comment="1 day + 2 day in a course">
-      <change afterPath="$PROJECT_DIR$/3Day/PizzaOrder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3Day/TreasureIsland.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3Day/bmiCalculator2.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3Day/if-else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3Day/leapYearOrNot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3Day/logicalOperators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3Day/loveCalculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.PizzaOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TreasureIsland.executor&quot;: &quot;Run&quot;,
-    &quot;Python.if-else.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.logicalOperators.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.loveCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.mathOperation.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.strings.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.PizzaOrder.executor": "Run",
+    "Python.TreasureIsland.executor": "Run",
+    "Python.if-else.executor": "Debug",
+    "Python.logicalOperators.executor": "Debug",
+    "Python.loveCalculator.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.mathOperation.executor": "Debug",
+    "Python.strings.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.main">
     <configuration name="PizzaOrder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
@@ -233,7 +226,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="4day-project" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
