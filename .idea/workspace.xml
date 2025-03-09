@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a3ea925-8eca-4ded-9272-aeba7c54d21a" name="Changes" comment="1 day + 2 day in a course" />
+    <list default="true" id="5a3ea925-8eca-4ded-9272-aeba7c54d21a" name="Changes" comment="1 day + 2 day in a course">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,27 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.PizzaOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TreasureIsland.executor&quot;: &quot;Run&quot;,
-    &quot;Python.banker_roulette.executor&quot;: &quot;Run&quot;,
-    &quot;Python.heads_or_tails.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.if-else.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.logicalOperators.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.loveCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.mathOperation.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.random.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_number (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.strings.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;5Day&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.PizzaOrder.executor": "Run",
+    "Python.TreasureIsland.executor": "Run",
+    "Python.banker_roulette.executor": "Run",
+    "Python.heads_or_tails.executor": "Debug",
+    "Python.if-else.executor": "Debug",
+    "Python.logicalOperators.executor": "Debug",
+    "Python.loveCalculator.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.mathOperation.executor": "Debug",
+    "Python.random.executor": "Run",
+    "Python.random_number (1).executor": "Debug",
+    "Python.strings.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.banker_roulette">
     <configuration name="banker_roulette" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
