@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3ea925-8eca-4ded-9272-aeba7c54d21a" name="Changes" comment="1 day + 2 day in a course">
-      <change afterPath="$PROJECT_DIR$/6Day/escaping_the_maze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6Day/hurdles_challenge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6Day/python_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_03_2025_17_19_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_03_2025_17_19__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_09_03_2025_17_20_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_09_03_2025_17_20__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
