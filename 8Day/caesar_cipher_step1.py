@@ -17,6 +17,7 @@ def encrypt(plain_text, shift_amount):
     # https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-in-a-list
 
     ## 🐛Bug alert: What happens if you try to encode the word 'civilization'?🐛
+
     temp = ""
 
     for i in plain_text:
