@@ -11,7 +11,7 @@ def encrypt(plain_text, shift_amount):
         index = alphabet.index(i)
         new_index = index + shift_amount
         if new_index >= list_length:
-            new_index = new_index - list_length
+            new_index = new_index - list_length - 1
         temp += alphabet[new_index]
         print(
             f'Letter: {i},  Index list: {index},  New index: {new_index}, New letter: {alphabet[new_index]}, Encripting: {temp}')
@@ -32,7 +32,7 @@ def decrypt(encrypt_text, shift_amount):
         index = alphabet.index(i)
         new_index = index - shift_amount
         if new_index < 0:
-            new_index = new_index % list_length
+            new_index = new_index % list_length + 1
         temp += alphabet[new_index]
         print(
             f'Letter: {i},  Index list: {index},  New index: {new_index}, New letter: {alphabet[new_index]}, Encripting: {temp}')
@@ -45,11 +45,5 @@ if direction == "encode":
 elif direction == "decode":
     decrypt(text, shift)
 else:
-    print("Something goes wrong! Please, restart the program and try again \-_-/")
+    print("Something goes wrong! Please, restart the program and try again.")
 
-
-
-# try to do checking did user encrypt any word before
-# encrypt_word = ""
-# encrypt_word = encrypt(text, shift)
-# decrypt(encrypt_word, shift)

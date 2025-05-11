@@ -24,7 +24,7 @@ def encrypt(plain_text, shift_amount):
         index = alphabet.index(i)
         new_index = index + shift_amount
         if new_index >= len(alphabet):
-            new_index = new_index - len(alphabet)
+            new_index = new_index - len(alphabet) - 1
         temp += alphabet[new_index]
         print(f'Letter: {i},  Index list: {index},  New index: {new_index}, New letter: {alphabet[new_index]},  Encripting: {temp}')
 
