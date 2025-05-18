@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3ea925-8eca-4ded-9272-aeba7c54d21a" name="Changes" comment="1 day + 2 day in a course">
-      <change afterPath="$PROJECT_DIR$/9Day/dictionaries_in_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9Day/art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9Day/dictionary_in_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9Day/grading_program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9Day/nesting_lists_and_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9Day/secret_auction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9Day/the_secret_auction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +56,9 @@
     "Python.caesar_cipher_step1.executor": "Debug",
     "Python.caesar_cipher_step2.executor": "Debug",
     "Python.dictionaries_in_python.executor": "Run",
+    "Python.dictionary_in_list.executor": "Run",
     "Python.final_caesar_cipher.executor": "Run",
+    "Python.grading_program.executor": "Run",
     "Python.hangman_start2.executor": "Debug",
     "Python.hangman_step4.executor": "Debug",
     "Python.heads_or_tails.executor": "Debug",
@@ -61,46 +68,30 @@
     "Python.loveCalculator.executor": "Run",
     "Python.main.executor": "Debug",
     "Python.mathOperation.executor": "Debug",
+    "Python.nesting_lists_and_dict.executor": "Run",
     "Python.prime_numbers.executor": "Debug",
     "Python.random.executor": "Run",
     "Python.random_number (1).executor": "Debug",
     "Python.reorganising_code.executor": "Debug",
     "Python.strings.executor": "Debug",
+    "Python.the_secret_auction.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "9Day",
+    "last_opened_file_path": "D:/Personal/Programming/Course Hunter/Python/100days/9Day",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\Programming\Course Hunter\Python\100days\9Day" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Personal\Programming\Course Hunter\Python\100days\7Day" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dictionaries_in_python">
-    <configuration name="caesar_cipher_step2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100days" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8Day" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8Day/caesar_cipher_step2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.the_secret_auction">
     <configuration name="dictionaries_in_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
@@ -123,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="final_caesar_cipher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dictionary_in_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8Day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9Day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8Day/final_caesar_cipher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9Day/dictionary_in_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="grading_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8Day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9Day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8Day/logo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9Day/grading_program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reorganising_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nesting_lists_and_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,11 +189,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8Day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9Day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8Day/reorganising_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9Day/nesting_lists_and_dict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="the_secret_auction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9Day" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9Day/the_secret_auction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.the_secret_auction" />
+        <item itemvalue="Python.dictionary_in_list" />
+        <item itemvalue="Python.nesting_lists_and_dict" />
+        <item itemvalue="Python.grading_program" />
         <item itemvalue="Python.dictionaries_in_python" />
-        <item itemvalue="Python.final_caesar_cipher" />
-        <item itemvalue="Python.logo" />
-        <item itemvalue="Python.reorganising_code" />
-        <item itemvalue="Python.caesar_cipher_step2" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +291,11 @@
           <url>file://$PROJECT_DIR$/3Day/if-else.py</url>
           <line>40</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/9Day/grading_program.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
