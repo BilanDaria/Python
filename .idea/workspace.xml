@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3ea925-8eca-4ded-9272-aeba7c54d21a" name="Changes" comment="1 day + 2 day in a course">
-      <change afterPath="$PROJECT_DIR$/11Day_blackjack/art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Day_blackjack/blackjack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Day_blackjack/blackjack1.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
     "Python.TreasureIsland.executor": "Run",
     "Python.banker_roulette.executor": "Run",
     "Python.blackjack.executor": "Run",
+    "Python.blackjack1.1.executor": "Run",
     "Python.caesar_cipher_step1.executor": "Debug",
     "Python.caesar_cipher_step2.executor": "Debug",
     "Python.calculator_step1.executor": "Debug",
@@ -75,17 +75,21 @@
     "Python.strings.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "11Day",
+    "git-widget-placeholder": "11Day.1",
+    "last_opened_file_path": "D:/Personal/Programming/Course Hunter/Python/100days/11Day_blackjack",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\Programming\Course Hunter\Python\100days\11Day_blackjack" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Personal\Programming\Course Hunter\Python\100days\7Day" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.blackjack">
+  <component name="RunManager" selected="Python.blackjack1.1">
     <configuration name="blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
@@ -108,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="calculator_step1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="blackjack1.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10Day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11Day_blackjack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10Day/calculator_step1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11Day_blackjack/blackjack1.1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.blackjack1.1" />
         <item itemvalue="Python.blackjack" />
         <item itemvalue="Python.perm" />
         <item itemvalue="Python.final_version_of_calculator" />
         <item itemvalue="Python.calculator_step2" />
-        <item itemvalue="Python.calculator_step1" />
       </list>
     </recent_temporary>
   </component>
