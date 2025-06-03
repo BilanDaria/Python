@@ -1,86 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="5a3ea925-8eca-4ded-9272-aeba7c54d21a" name="Changes" comment="1 day + 2 day in a course">
-      <change afterPath="$PROJECT_DIR$/11Day_blackjack/blackjack1.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2rnheTY0432fQIjKrPcYhVfPrlL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.PizzaOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TreasureIsland.executor&quot;: &quot;Run&quot;,
-    &quot;Python.banker_roulette.executor&quot;: &quot;Run&quot;,
-    &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.blackjack1.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.caesar_cipher_step1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.caesar_cipher_step2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.calculator_step1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.calculator_step2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictionaries_in_python.executor&quot;: &quot;Run&quot;,
-    &quot;Python.final_caesar_cipher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.final_version_of_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functions_with_outputs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hangman_start2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.hangman_step4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.heads_or_tails.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.if-else.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.logicalOperators.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.logo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loveCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.mathOperation.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.perm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prime_numbers.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.random.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_number (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.reorganising_code.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.strings.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;11Day.1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Personal/Programming/Course Hunter/Python/100days/11Day_blackjack&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
-  }
-}</component>
+    <component name="AutoImportSettings">
+        <option name="autoReloadType" value="SELECTIVE"/>
+    </component>
+    <component name="ChangeListManager">
+        <list default="true" id="5a3ea925-8eca-4ded-9272-aeba7c54d21a" name="Changes"
+              comment="1 day + 2 day in a course">
+            <change afterPath="$PROJECT_DIR$/12Day_number_guessing_game/art.py" afterDir="false"/>
+            <change afterPath="$PROJECT_DIR$/12Day_number_guessing_game/number_guessing_game.py" afterDir="false"/>
+            <change afterPath="$PROJECT_DIR$/12Day_number_guessing_game/scope.py" afterDir="false"/>
+            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false"
+                    afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false"/>
+        </list>
+        <option name="SHOW_DIALOG" value="false"/>
+        <option name="HIGHLIGHT_CONFLICTS" value="true"/>
+        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false"/>
+        <option name="LAST_RESOLUTION" value="IGNORE"/>
+    </component>
+    <component name="FileTemplateManagerImpl">
+        <option name="RECENT_TEMPLATES">
+            <list>
+                <option value="Python Script"/>
+            </list>
+        </option>
+    </component>
+    <component name="Git.Settings">
+        <option name="RECENT_BRANCH_BY_REPOSITORY">
+            <map>
+                <entry key="$PROJECT_DIR$" value="main"/>
+            </map>
+        </option>
+        <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$"/>
+    </component>
+    <component name="MarkdownSettingsMigration">
+        <option name="stateVersion" value="1"/>
+    </component>
+    <component name="ProblemsViewState">
+        <option name="selectedTabId" value="CurrentFile"/>
+    </component>
+    <component name="ProjectColorInfo">{
+        &quot;associatedIndex&quot;: 1
+        }
+    </component>
+    <component name="ProjectId" id="2rnheTY0432fQIjKrPcYhVfPrlL"/>
+    <component name="ProjectLevelVcsManager" settingsEditedManually="true"/>
+    <component name="ProjectViewState">
+        <option name="hideEmptyMiddlePackages" value="true"/>
+        <option name="showLibraryContents" value="true"/>
+    </component>
+    <component name="PropertiesComponent">{
+       "keyToString": {
+        &quot;Python.PizzaOrder.executor&quot;: &quot;Run&quot;,
+        &quot;Python.TreasureIsland.executor&quot;: &quot;Run&quot;,
+        &quot;Python.banker_roulette.executor&quot;: &quot;Run&quot;,
+        &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
+        &quot;Python.blackjack1.1.executor&quot;: &quot;Run&quot;,
+        &quot;Python.caesar_cipher_step1.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.caesar_cipher_step2.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.calculator_step1.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.calculator_step2.executor&quot;: &quot;Run&quot;,
+        &quot;Python.dictionaries_in_python.executor&quot;: &quot;Run&quot;,
+        &quot;Python.final_caesar_cipher.executor&quot;: &quot;Run&quot;,
+        &quot;Python.final_version_of_calculator.executor&quot;: &quot;Run&quot;,
+        &quot;Python.functions_with_outputs.executor&quot;: &quot;Run&quot;,
+        &quot;Python.hangman_start2.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.hangman_step4.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.heads_or_tails.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.if-else.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.logicalOperators.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.logo.executor&quot;: &quot;Run&quot;,
+        &quot;Python.loveCalculator.executor&quot;: &quot;Run&quot;,
+        &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.mathOperation.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.perm.executor&quot;: &quot;Run&quot;,
+        &quot;Python.prime_numbers.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.random.executor&quot;: &quot;Run&quot;,
+        &quot;Python.random_number (1).executor&quot;: &quot;Debug&quot;,
+        &quot;Python.reorganising_code.executor&quot;: &quot;Debug&quot;,
+        &quot;Python.strings.executor&quot;: &quot;Debug&quot;,
+        &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+        &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+        &quot;git-widget-placeholder&quot;: &quot;11Day.1&quot;,
+        &quot;last_opened_file_path&quot;: &quot;D:/Personal/Programming/Course Hunter/Python/100days/11Day_blackjack&quot;,
+        &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+        &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Personal\Programming\Course Hunter\Python\100days\11Day_blackjack" />
@@ -89,7 +93,7 @@
       <recent name="D:\Personal\Programming\Course Hunter\Python\100days\7Day" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.blackjack1.1">
+  <component name="RunManager" selected="Python.number_guessing_game">
     <configuration name="blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
@@ -126,28 +130,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11Day_blackjack/blackjack1.1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="calculator_step2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100days" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10Day" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10Day/calculator_step2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,6 +182,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="number_guessing_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12Day_number_guessing_game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12Day_number_guessing_game/number_guessing_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="perm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
@@ -224,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.number_guessing_game" />
         <item itemvalue="Python.blackjack1.1" />
         <item itemvalue="Python.blackjack" />
         <item itemvalue="Python.perm" />
         <item itemvalue="Python.final_version_of_calculator" />
-        <item itemvalue="Python.calculator_step2" />
       </list>
     </recent_temporary>
   </component>
