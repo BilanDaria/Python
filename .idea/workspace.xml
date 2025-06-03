@@ -43,44 +43,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.PizzaOrder.executor": "Run",
-    "Python.TreasureIsland.executor": "Run",
-    "Python.banker_roulette.executor": "Run",
-    "Python.blackjack.executor": "Run",
-    "Python.blackjack1.1.executor": "Run",
-    "Python.caesar_cipher_step1.executor": "Debug",
-    "Python.caesar_cipher_step2.executor": "Debug",
-    "Python.calculator_step1.executor": "Debug",
-    "Python.calculator_step2.executor": "Run",
-    "Python.dictionaries_in_python.executor": "Run",
-    "Python.final_caesar_cipher.executor": "Run",
-    "Python.final_version_of_calculator.executor": "Run",
-    "Python.functions_with_outputs.executor": "Run",
-    "Python.hangman_start2.executor": "Debug",
-    "Python.hangman_step4.executor": "Debug",
-    "Python.heads_or_tails.executor": "Debug",
-    "Python.if-else.executor": "Debug",
-    "Python.logicalOperators.executor": "Debug",
-    "Python.logo.executor": "Run",
-    "Python.loveCalculator.executor": "Run",
-    "Python.main.executor": "Debug",
-    "Python.mathOperation.executor": "Debug",
-    "Python.perm.executor": "Run",
-    "Python.prime_numbers.executor": "Debug",
-    "Python.random.executor": "Run",
-    "Python.random_number (1).executor": "Debug",
-    "Python.reorganising_code.executor": "Debug",
-    "Python.strings.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "11Day.1",
-    "last_opened_file_path": "D:/Personal/Programming/Course Hunter/Python/100days/11Day_blackjack",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.PizzaOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TreasureIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Python.banker_roulette.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blackjack1.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.caesar_cipher_step1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.caesar_cipher_step2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.calculator_step1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.calculator_step2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictionaries_in_python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.final_caesar_cipher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.final_version_of_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.functions_with_outputs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hangman_start2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hangman_step4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.heads_or_tails.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.if-else.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.logicalOperators.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.logo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loveCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.mathOperation.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.perm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prime_numbers.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.random.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_number (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.reorganising_code.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.strings.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;11Day.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Personal/Programming/Course Hunter/Python/100days/11Day_blackjack&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Personal\Programming\Course Hunter\Python\100days\11Day_blackjack" />
