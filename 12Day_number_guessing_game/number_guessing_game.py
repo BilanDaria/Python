@@ -33,9 +33,6 @@ def guessing_number(attempts):
             print("Too high.\n"
                   "Guess again.")
             attempts -= 1
-        else:
-            print("Something goes wront")
-            break
     else:
         print("You've run out of guesses. Restart the program to run again.")
 
@@ -49,12 +46,15 @@ while is_game_active:
     print("I'm thinking of number between 1 and 100.")
     game_level = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
     if game_level == 'easy':
-        is_game_active = guessing_number(EASY_LEVEL)
-        continue
+        attempts = EASY_LEVEL
+        # is_game_active = guessing_number(EASY_LEVEL)
+        # continue
     elif game_level == "hard":
-        is_game_active = guessing_number(HARD_LEVEL)
-        continue
+        attempts = HARD_LEVEL
+        # is_game_active = guessing_number(HARD_LEVEL)
+        # continue
     else:
         print("Invalid hard level. Try again.")
+    is_game_active = guessing_number(attempts)
 
 
