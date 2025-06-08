@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21a01bed-d2c9-4a22-9fe0-06b23af0cc59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/13Day/bugged_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13Day/debbuging_ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13Day/debbuging_ex3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13Day/debiggung_ex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13Day/solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15Day_coffee_machine/144 - Coffee-Machine-Program-Requirements.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15Day_coffee_machine/diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15Day_coffee_machine/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +40,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.code1.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.number_guessing_game.executor": "Run",
     "Python.solution (1).executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "13Day"
+    "git-widget-placeholder": "15Day",
+    "last_opened_file_path": "D:/Personal/Programming/Course Hunter/Python/100days/15Day_coffee_machine"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.debbuging_ex3">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\Programming\Course Hunter\Python\100days\15Day_coffee_machine" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,6 +70,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15Day_coffee_machine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15Day_coffee_machine/data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="number_guessing_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12Day_number_guessing_game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15Day_coffee_machine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12Day_number_guessing_game/number_guessing_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15Day_coffee_machine/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,10 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.data" />
         <item itemvalue="Python.debbuging_ex3" />
         <item itemvalue="Python.solution (1)" />
         <item itemvalue="Python.solution" />
-        <item itemvalue="Python.number_guessing_game" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +268,11 @@
           <url>file://$PROJECT_DIR$/13Day/solution.py</url>
           <line>45</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/15Day_coffee_machine/main.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
