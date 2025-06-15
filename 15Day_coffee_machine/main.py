@@ -49,7 +49,6 @@ def check_resources(coffee_type):
             else:
                 is_enough = False
                 print(f"Sorry there is not enough {i}.")
-                return is_enough
         else:
             continue
     return is_enough
