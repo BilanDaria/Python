@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21a01bed-d2c9-4a22-9fe0-06b23af0cc59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/15Day_coffee_machine/144 - Coffee-Machine-Program-Requirements.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15Day_coffee_machine/diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15Day_coffee_machine/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15Day_coffee_machine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/15Day_coffee_machine/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,11 +266,6 @@
           <url>file://$PROJECT_DIR$/13Day/solution.py</url>
           <line>45</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/15Day_coffee_machine/main.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
