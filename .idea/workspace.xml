@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21a01bed-d2c9-4a22-9fe0-06b23af0cc59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/class_theory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/question_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/quiz_brain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17Day_quiz_game/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/17Day_quiz_game/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17Day_quiz_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/17Day_quiz_game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17Day_quiz_game/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/17Day_quiz_game/question_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17Day_quiz_game/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/17Day_quiz_game/quiz_brain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
     "Python.main (3).executor": "Run",
     "Python.main.executor": "Run",
     "Python.number_guessing_game.executor": "Run",
+    "Python.quiz_brain.executor": "Run",
     "Python.solution (1).executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -98,28 +98,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\Personal\Programming\Course Hunter\Python\100days\17Day_quiz_game\class_theory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100days" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16Day_OOP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16Day_OOP/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,6 +172,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="quiz_brain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17Day_quiz_game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17Day_quiz_game/quiz_brain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,10 +242,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.quiz_brain" />
         <item itemvalue="Python.class_theory" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>

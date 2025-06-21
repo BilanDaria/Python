@@ -3,3 +3,5 @@ class Question:
         self.text = text
         self.answer = answer
 
+    def get_text(self):
+        return self.text
