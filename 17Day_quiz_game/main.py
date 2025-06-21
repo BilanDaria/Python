@@ -3,8 +3,6 @@ from data import question_data as qd
 from data import question_data2 as qd2
 from quiz_brain import QuizBrain
 
-
-
 question_bank = []
 
 # for i in range(len(qd)):
