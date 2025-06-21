@@ -4,8 +4,8 @@ class Book:
         self.author = author
         self.year = year
 
-    def display(self):
-        print(f"Title: {self.title}\n"
+    def __str__(self):
+        return (f"Title: {self.title}\n"
               f"Author: {self.author}\n"
               f"Year of publishing: {self.year}\n"
               f"--------------------------------\n")
