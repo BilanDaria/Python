@@ -10,4 +10,4 @@ class Book:
                 f"Author: {self.author}\n"
                 f"Year of publishing: {self.year}\n"
                 f"Available: {self.available}\n"
-                f"--------------------------------\n")
+                f"")
