@@ -3,7 +3,7 @@ books_data = [
         "title": "Don Quixote",
         "author": "Miguel de Cervantes",
         "year": "1605 & 1615",
-        "available": True,
+        "available": False,
     },
     {
         "title": "A Tale of Two Cities",
