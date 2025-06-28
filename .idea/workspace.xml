@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21a01bed-d2c9-4a22-9fe0-06b23af0cc59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management/Inventory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management/Product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/Book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/Library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/book_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/book_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -41,7 +43,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Inventory.executor": "Run",
     "Python.Library.executor": "Run",
+    "Python.Product.executor": "Run",
     "Python.Student.executor": "Run",
     "Python.code1.executor": "Run",
     "Python.data.executor": "Run",
@@ -66,7 +70,29 @@
       <recent name="D:\Personal\Programming\Course Hunter\Python\100days\15Day_coffee_machine" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (4)">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="Inventory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management/Inventory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Library" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
@@ -89,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Product" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/student_grader" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/student_grader/Student.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management/Product.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100days" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +168,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/easy_calculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/easy_calculator/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_inventory_management/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,28 +195,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/medium_library_management_system/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100days" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/student_grader" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17Day_quiz_game/additional_practice/student_grader/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.Product" />
+        <item itemvalue="Python.Inventory" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.Library" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.Student" />
-        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
