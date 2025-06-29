@@ -39,6 +39,6 @@ while is_going:
         print("Invalid input data! Good buy loser!")
         break
 
-# print(auction)
+
 
 
