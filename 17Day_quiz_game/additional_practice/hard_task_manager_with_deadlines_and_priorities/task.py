@@ -5,7 +5,7 @@ class Task:
         self.title = title
         self.description = description
         self.deadline = deadline
-        self.status = Status.OPEN
+        self.status = status if status else Status.OPEN
         self.priority = priority
 
     def change_title(self, new_title):
