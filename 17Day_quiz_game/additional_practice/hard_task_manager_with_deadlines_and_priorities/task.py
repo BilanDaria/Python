@@ -1,11 +1,11 @@
-from data import Status
+import data
 class Task:
     def __init__(self, id, title, description, deadline, status, priority):
         self.id = id
         self.title = title
         self.description = description
         self.deadline = deadline
-        self.status = status if status else Status.OPEN
+        self.status = data.Status.OPEN
         self.priority = priority
 
     def change_title(self, new_title):
