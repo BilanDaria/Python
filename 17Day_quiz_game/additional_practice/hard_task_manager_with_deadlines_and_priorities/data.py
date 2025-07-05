@@ -10,7 +10,7 @@ change_point = {
 
 
 class Status(Enum):
-    OPEN = "Open"
+    OPEN = auto()
     IN_PROGRESS = auto()
     BLOCKED = auto()
     DONE = auto()

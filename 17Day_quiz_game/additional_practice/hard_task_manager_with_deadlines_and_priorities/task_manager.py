@@ -6,7 +6,7 @@ from data import IDCounter, change_point
 from task import Task
 
 n_id = IDCounter()
-path = Path("D:\Personal\Programming\Course Hunter\Python\100days\17Day_quiz_game\additional_practice\medium_bank_account")
+path = Path("D:\\Personal\\Programming\\Course Hunter\\Python\\100days\\17Day_quiz_game\\additional_practice\\medium_bank_account")
 
 
 class TaskManager:
