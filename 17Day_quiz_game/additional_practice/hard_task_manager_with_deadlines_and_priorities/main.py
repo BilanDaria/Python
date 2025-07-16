@@ -1,43 +1,6 @@
-
 import data
 import get_methods
 import process_methods
-
-# task_manager = TaskManager()
-# all_tasks = []
-# overdue_tasks = []
-# sorted_tasks = []
-
-
-def first_task():
-    print("Let's start with the first task in our workspace!")
-    ans = input("Would you like to create your first task? y/n: ").lower()
-    if ans == 'n':
-        print('What a pitiful situation... What else you can do in Task Manager program without tasks 🤔.')
-        return
-    process_methods.add_new_task()
-
-
-def main_block(point):
-    if point == 1:
-        process_methods.add_new_task()
-    elif point == 2:
-        process_methods.find_the_task()
-    # elif point == 3:
-    #     change_existing_task()
-    elif point == 4:
-        process_methods.delete_task()
-    elif point == 5:
-        process_methods.receive_all_tasks()
-    # elif point == 6:
-    #     process_methods.receive_all_overdue_tasks()
-    elif point == 7:
-        process_methods.receive_sorted_tasks()
-    elif point == 8:
-
-    # else:
-    #     save_tasks()
-
 
 menu_items = ("What you may to do (enter the number of chose option):\n"
               "0 - escape? 😈\n"
@@ -53,11 +16,39 @@ menu_items = ("What you may to do (enter the number of chose option):\n"
               "Your choice: ")
 
 
+def first_task():
+    print("Let's start with the first task in our workspace!")
+    ans = input("Would you like to create your first task? y/n: ").lower()
+    if ans == 'y':
+        process_methods.add_new_task()
+        return
+    print('What a pitiful situation... What else you can do in Task Manager program without tasks 🤔.')
+    exit()
+
+
+
+def main_block(point):
+    if point == 1:
+        process_methods.add_new_task()
+    elif point == 2:
+        process_methods.find_the_task()
+    elif point == 3:
+        process_methods.change_existing_task()
+    elif point == 4:
+        process_methods.delete_task()
+    elif point == 5:
+        process_methods.receive_all_tasks(True)
+    elif point == 6:
+        process_methods.receive_sorted_tasks()
+    elif point == 7:
+        process_methods.receive_all_overdue_tasks(True)
+    elif point == 8:
+        process_methods.receive_archive_tasks()
+    else:
+        process_methods.save_tasks()
+
+
 def start():
-    # global all_tasks
-    # all_tasks = process_methods.task_manager.get_all_tasks()
-    # if len(all_tasks) == 0:
-    #     first_task()
 
     while True:
         try:
@@ -76,5 +67,3 @@ def start():
 
 first_task()
 start()
-# all_tasks = task_manager.get_all_tasks()
-# print(type(all_tasks))

@@ -1,12 +1,5 @@
 from enum import Enum, auto
-from task import Task
 
-change_point = {
-    "title": Task.change_title,
-    "desc": Task.change_description,
-    "priority": Task.change_priority,
-    "deadline": Task.change_deadline,
-}
 
 sort_parameters = ['deadline', 'status', 'priority']
 
@@ -37,9 +30,6 @@ class IDCounter:
     def get_next_id(self):
         self.counter += 1
         return int(self.counter)
-
-
-
 
 
 #### TEST DATA FOR TASK MANAGER ####

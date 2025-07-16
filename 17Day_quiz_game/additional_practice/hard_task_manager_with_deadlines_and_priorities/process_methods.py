@@ -1,5 +1,6 @@
 from datetime import datetime
 from pathlib import Path
+from typing import List
 
 from task_manager import TaskManager
 import get_methods
@@ -8,8 +9,10 @@ import data
 path_for_all_tasks = Path("D:\\Personal\\Programming\\Course Hunter\\Python\\100days\\17Day_quiz_game\\additional_practice\\hard_task_manager_with_deadlines_and_priorities\\all.txt")
 path_for_overdue_tasks = Path("D:\\Personal\\Programming\\Course Hunter\\Python\\100days\\17Day_quiz_game\\additional_practice\\hard_task_manager_with_deadlines_and_priorities\\overdue.txt")
 path_for_last_sorted_tasks = Path("D:\\Personal\\Programming\\Course Hunter\\Python\\100days\\17Day_quiz_game\\additional_practice\\hard_task_manager_with_deadlines_and_priorities\\sorted.txt")
+path_for_archived_tasks = Path("D:\\Personal\\Programming\\Course Hunter\\Python\\100days\\17Day_quiz_game\\additional_practice\\hard_task_manager_with_deadlines_and_priorities\\archived.txt")
 
 task_manager = TaskManager()
+
 
 def add_new_task():
     print("Create new task:")
@@ -29,7 +32,7 @@ def find_the_task():
 
 param_to_change = {
     "title": get_methods.get_title,
-    "desc": get_methods.get_description,
+    "description": get_methods.get_description,
     "deadline": get_methods.get_deadline,
     "priority": get_methods.get_priority,
     "status": get_methods.get_status,
@@ -44,7 +47,7 @@ def change_existing_task():
     task_id = get_methods.get_id()
     print(f"Let's change task {task_id}: ")
     try:
-        param = input(prompt_to_change_task)
+        param = input(prompt_to_change_task).lower()
     except ValueError:
         print("Invalid input.")
         return
@@ -53,7 +56,7 @@ def change_existing_task():
         return
     if param not in param_to_change:
         print(f"You can't change {param}")
-        change_existing_task(task_id)
+        change_existing_task()
     new_data = param_to_change[param]()
     edited_task = task_manager.change_task(task_id, param, new_data)
     if not edited_task:
@@ -68,28 +71,32 @@ def delete_task():
     print(f"Task {task_id} successfully deleted.")
 
 
-def clear_list_of_tasks(list_of_tasks):
-    return list_of_tasks.clear()
+def print_list(current_list: List):
+    print(get_methods.get_all_tasks_from_list(current_list))
 
 
-def receive_all_tasks():
-    data.all_tasks = clear_list_of_tasks(data.all_tasks)
-    data.all_tasks = task_manager.get_all_tasks()
-    print(get_methods.get_all_tasks_from_list(data.all_tasks))
+def receive_all_tasks(need_print):
+    data.all_tasks = task_manager.get_all_tasks().copy()
+    if need_print:
+        print_list(data.all_tasks)
 
 
-def receive_all_overdue_tasks():
-    data.overdue_tasks.clear()
-    data.overdue_tasks = task_manager.get_overdue_task()
-    print(get_methods.get_all_tasks_from_list(data.overdue_tasks))
+def receive_all_overdue_tasks(need_print):
+    data.overdue_tasks = task_manager.get_overdue_task().copy()
+    if need_print:
+        print_list(data.overdue_tasks)
+
+# def receive_all_archive_tasks(need_print):
+#     data.archive = task_manager.get_a().copy()
+#     if need_print:
+#         print_list(data.overdue_tasks)
 
 
 def receive_sorted_tasks():
-    receive_all_tasks()
-    receive_all_overdue_tasks()
-    data.sorted_tasks.clear()
-    data.sorted_tasks = sort_tasks()
-    print(get_methods.get_all_tasks_from_list(data.sorted_tasks))
+    receive_all_tasks(False)
+    receive_all_overdue_tasks(False)
+    data.sorted_tasks = sort_tasks().copy()
+    print_list(data.sorted_tasks)
 
 
 def sort_tasks():
@@ -100,12 +107,12 @@ def sort_tasks():
     elif ans == 'a':
         if len(data.all_tasks) == 0:
             print("You can't sort empty list. Sorting canceled...")
-            return sort_tasks()
+            return
         tasks = data.all_tasks
     elif ans == 'o':
         if len(data.overdue_tasks) == 0:
             print("You can't sort empty list. Sorting canceled...")
-            return sort_tasks()
+            return
         tasks = data.overdue_tasks
     else:
         print("Unknown list of tasks. Sorting canceled...")
@@ -115,7 +122,7 @@ def sort_tasks():
     if param not in data.sort_parameters:
         print("Unknown sort parameter. Process canceled...")
         return
-    order = bool(input("Enter the order. T - for descending, F - for ascending"))
+    order = bool(input("Enter the order. T - for descending, F - for ascending: "))
 
     if param == 'deadline':
         result = task_manager.sort_by_deadlines(order, tasks)
@@ -136,15 +143,15 @@ def receive_archive_tasks():
 def save_tasks():
     ans = input("Which tasks you'd like to save? Enter a - for all, o - for overdue, s - for last sorted.: ").lower()
     if ans == "a":
-        data.all_tasks.clear()
-        data.all_tasks = task_manager.get_all_tasks()
+        receive_all_tasks(False)
         task_manager.save_to_json(path_for_all_tasks, data.all_tasks)
     elif ans == "o":
-        data.overdue_tasks.clear()
-        data.overdue_tasks = task_manager.get_overdue_task()
+        receive_all_overdue_tasks(False)
         task_manager.save_to_json(path_for_overdue_tasks, data.overdue_tasks)
     elif ans == "s":
         task_manager.save_to_json(path_for_last_sorted_tasks, data.sorted_tasks)
+    elif ans == "arh":
+        task_manager.save_to_json(path_for_archived_tasks, data.archive)
     else:
         print("Unknown list. Saving canceled...")
         return

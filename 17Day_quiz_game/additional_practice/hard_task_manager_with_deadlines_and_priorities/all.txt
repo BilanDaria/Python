@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "title": "skefsmef",
+        "description": "slekfse",
+        "deadline": "2025-09-09",
+        "status": "OPEN",
+        "priority": "LOW"
+    }
+]
