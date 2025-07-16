@@ -1,3 +1,5 @@
+from typing import List
+
 import data
 from datetime import datetime
 
@@ -62,7 +64,7 @@ def get_all_attributes():
     return title, desc, deadline, priority
 
 
-def get_all_tasks_from_list(current_list):
+def get_all_tasks_from_list(current_list: List):
     return '\n'.join(str(i) for i in current_list)
 
 
