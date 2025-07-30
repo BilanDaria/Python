@@ -7,16 +7,17 @@ class Scoreboard(Turtle):
         self.color("white")
         self.penup()
         self.score = 0
-        self.teleport(position)
+        self.setpos(position)
         self.setheading(90)
-        self.pensize(20)
+        self.pensize(5)
 
     def line(self):
-        while self.heading() != 290:
+        while self.ycor() <= 345:
             self.forward(30)
             self.pendown()
             self.forward(30)
             self.penup()
+            print(f'im here {self.position()}')
 
     def increase_score(self):
         self.score += 1

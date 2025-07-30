@@ -1,38 +1,32 @@
 from turtle import Screen
 from scoreboard import Scoreboard
+from paddle import Paddle
 
 import time
 
-STARTING_POSITIONS_FIRST_PADDLE = [(-285, 20), (-285, 0), (-285, -20)]
-STARTING_POSITIONS_SECOND_PADDLE = [(285, 20), (285, 0), (285, -20)]
+STARTING_POSITIONS_FIRST_PADDLE = [(-370, 20), (-370, 0), (-370, -20)]
+STARTING_POSITIONS_SECOND_PADDLE = [(370, 20), (370, 0), (370, -20)]
 
-LINE_START_POSITION = (0, -300)
+LINE_START_POSITION = (0, -350)
 LEFT_SCORE_POSITION = (-150, 270)
 RIGHT_SCORE_POSITION = (150, 270)
 
 screen = Screen()
-screen.setup(800, 600)
+screen.setup(800, 700)
 screen.bgcolor("black")
 screen.title("Ping Pong")
 screen.tracer(0)
 
 line = Scoreboard(LINE_START_POSITION)
-left_score = Scoreboard(LEFT_SCORE_POSITION)
-left_score.score_counter_update("left")
+line.line()
 
-
-
-screen.listen()
-# screen.onkey(snake.up, "Up")
-# screen.onkey(snake.down, "Down")
-
+paddle_1 = Paddle(STARTING_POSITIONS_FIRST_PADDLE)
 
 game_is_on = True
 while game_is_on:
-    line.line()
-    break
-    # screen.update()
-    # time.sleep(0.1)
+    screen.update()
+    time.sleep(0.5)
+    paddle_1.move_up()
 
 
 screen.exitonclick()
