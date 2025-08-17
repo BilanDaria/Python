@@ -1,27 +1,27 @@
 from turtle import Turtle
-FONT = ('Arial', 8, 'normal')
 
 class Scoreboard(Turtle):
-    def __init__(self, position):
+    def __init__(self):
         super().__init__()
         self.color("white")
         self.penup()
-        self.score = 0
-        self.setpos(position)
-        self.setheading(90)
-        self.pensize(5)
+        self.hideturtle()
+        self.l_score = 0
+        self.r_score = 0
+        self.update_score()
 
-    def line(self):
-        while self.ycor() <= 345:
-            self.forward(30)
-            self.pendown()
-            self.forward(30)
-            self.penup()
-            print(f'im here {self.position()}')
+    def update_score(self):
+        self.goto(-100, 200)
+        self.write(self.l_score, align="center", font=("Courier", 60, "normal"))
+        self.goto(100, 200)
+        self.write(self.r_score, align="center", font=("Courier", 60, "normal"))
 
-    def increase_score(self):
-        self.score += 1
-
-    def score_counter_update(self, align):
+    def l_point(self):
+        self.l_score += 1
         self.clear()
-        self.write(arg=self.score, move=False, align=align.lower(), font=FONT) # type error for align
+        self.update_score()
+
+    def r_point(self):
+        self.r_score += 1
+        self.clear()
+        self.update_score()
