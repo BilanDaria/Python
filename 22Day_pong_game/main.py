@@ -42,7 +42,6 @@ while game_is_on:
     # Detect collision with a right paddles
     if ball.distance(right_paddle) < 50 and ball.xcor() > 335 or ball.distance(
             left_paddle) < 35 and ball.xcor() > -345:
-        ball.increase_ball_speed()
         ball.bounce_x()
 
     # Detect missing right paddle
