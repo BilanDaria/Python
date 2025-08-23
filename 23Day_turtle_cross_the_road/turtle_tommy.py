@@ -11,25 +11,28 @@ class Tommy(Turtle):
         super().__init__()
         self.shape("turtle")
         self.penup()
-        self.setheading(90)
-        self.goto(0, -280)
+        self.start_position()
 
     def move_up(self):
-        if self.setheading != UP:
+        if self.heading() != UP:
             self.setheading(UP)
         self.forward(20)
 
     def move_down(self):
-        if self.setheading != DOWN:
+        if self.heading != DOWN:
             self.setheading(DOWN)
         self.forward(20)
 
     def move_right(self):
-        if self.setheading != RIGHT:
+        if self.heading != RIGHT:
             self.setheading(RIGHT)
         self.forward(20)
 
     def move_left(self):
-        if self.setheading != LEFT:
+        if self.heading != LEFT:
             self.setheading(LEFT)
         self.forward(20)
+
+    def start_position(self):
+        self.setheading(UP)
+        self.goto(0, -280)
