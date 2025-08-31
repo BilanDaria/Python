@@ -13,6 +13,6 @@ with open("my_file.txt") as file:
     contents = file.read()
     print(contents)
 
-#Opening a File that doesn't exit in write mode will create it from scratch
+# Opening a File that doesn't exit in write mode will create it from scratch
 with open("new_file.txt", mode="w") as file:
     file.write("New file")
