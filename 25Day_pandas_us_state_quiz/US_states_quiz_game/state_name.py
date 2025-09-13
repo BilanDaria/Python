@@ -11,7 +11,7 @@ class StateName(Turtle):
 
     def set_title_position(self):
         self.setposition(self.x_coord, self.y_coord)
-        self.write(self.name, False, "center", ('Courier', 18, 'normal'))
+        self.write(self.name, True, "center", ('Courier', 10, 'normal'))
 
 
 
