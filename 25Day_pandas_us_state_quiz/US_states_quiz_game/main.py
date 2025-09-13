@@ -2,42 +2,68 @@ from turtle import Screen, Turtle
 import pandas
 
 from state_name import StateName
+from end_game import EndGame
 
 us_states = pandas.read_csv("50_states.csv")
-us_states_list = us_states.state.to_list()  # useless
+us_states_list = us_states.state.to_list()
 guessed_states = []
 
 is_game = True
 user_lives = 3
+win_points = 0
+
+end_game = EndGame()
 
 screen = Screen()
 screen.title("U.S. State Games")
 screen.bgpic("blank_states_img.gif")
 
+
+def get_user_answer():
+    answer = screen.textinput("U.S. State!", "Type your guess: ").title()
+    if not answer or answer == "Exit":
+        return
+    return answer
+
+
+def check_user_answer(answer, win_points, user_lives):
+
+    if user_answer not in us_states.state.values:
+        user_lives -= 1
+        return user_lives, win_points
+
+    win_points += 1
+    state = show_guessed_state(answer)
+    guessed_states.append(state)
+    us_states_list.remove(answer)
+    return user_lives, win_points
+
+
+def show_guessed_state(answer):
+    row = us_states[us_states.state == answer]
+    state_name = row.state.values[0]
+    state_x_coord = row.x.values[0]
+    state_y_coord = row.y.values[0]
+    state = StateName(state_name, state_x_coord, state_y_coord)
+    state.set_title_position()
+    return state
+
+
 while is_game:
-    user_answer = screen.textinput("U.S. State!", "Type your guess: ")
-    print("i'm here")
+    user_answer = get_user_answer()
     if not user_answer:
         is_game = False
-        print("bad")
         continue
 
-    if user_answer.capitalize() in us_states.state.values:
-        state_name = us_states[us_states.state == user_answer.capitalize()].state.values[0]
-        state_x_coord = us_states[us_states.state == user_answer.capitalize()].x.values[0]
-        state_y_coord = us_states[us_states.state == user_answer.capitalize()].y.values[0]
-        state = StateName(state_name, state_x_coord, state_y_coord)
-        guessed_states.append(state)
-        state.set_title_position()
-    else:
-        user_lives -= 1
-        if user_lives <= 1:
+    user_lives, win_points = check_user_answer(user_answer, win_points, user_lives)
+    if user_lives == 0:
+        end_game.lose_game(win_points)
+        is_game = False
+        continue
 
-
-        # maybe add some sort of lives? like 3 attempts to make a wrong answer
-        # count down lives num
-    # check if lives == 0 -> game is over
-
+    if len(us_states_list) == 0:
+        end_game.win_game()
+        is_game = False
 
 
 screen.exitonclick()
