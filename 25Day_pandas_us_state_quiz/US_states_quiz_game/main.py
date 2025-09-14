@@ -21,7 +21,7 @@ screen.bgpic("blank_states_img.gif")
 
 def get_user_answer():
     answer = screen.textinput("U.S. State!", "Type your guess: ").title()
-    if not answer or answer == "Exit":
+    if not answer:
         return
     return answer
 
@@ -36,6 +36,8 @@ def check_user_answer(answer, win_points, user_lives):
     state = show_guessed_state(answer)
     guessed_states.append(state)
     us_states_list.remove(answer)
+
+    # 26Day exercise - rewrite using list comprehension
     return user_lives, win_points
 
 
@@ -49,11 +51,28 @@ def show_guessed_state(answer):
     return state
 
 
+# 26Day exercise - rewright using list comprehension
+def save_missing_state_to_csv():
+    # missing_states = []
+    # for state in us_states:
+    #     if state not in guessed_states:
+    #         missing_states.append(state)
+    # new_data = pandas.DataFrame(missing_states)
+    # new_data.to_csv("states_to_learn.csv")
+
+    missing_states = [missing_state for missing_state in us_states if missing_state not in guessed_states]
+    your_missing_states = pandas.DataFrame(missing_states)
+    your_missing_states.to_csv()
+
+
 while is_game:
     user_answer = get_user_answer()
     if not user_answer:
         is_game = False
         continue
+    elif user_lives == "Exit":
+        save_missing_state_to_csv()
+        break
 
     user_lives, win_points = check_user_answer(user_answer, win_points, user_lives)
     if user_lives == 0:
